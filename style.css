@@ -1,0 +1,80 @@
+/* Body et fond coloré */
+body {
+    display:flex;
+    background:linear-gradient(#00C9FF, #92FE9D);
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+}
+
+/* La carte de visite elle-même */
+#card {
+    max-width:800px;
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    padding-right:80px;
+    padding-left:80px;
+    border-radius:10%;
+}
+
+/* Le bloc d'infos */
+#infos {
+    max-height:300px;
+    font-size:20px;
+}
+/* La photo */
+img {
+    width:300px;
+    margin-right:50px;
+}
+/* Nom */    
+h1 {
+    font-family:'Sigmar One', monospace;
+    margin-top:auto;
+    margin-bottom:0px;
+}
+
+/* Poste */
+p {
+    color:rgba(150,150,150,0.8);
+    margin-top:0px;
+}
+/* Infos listées */
+ul {
+    list-style:none;
+    padding-inline-start: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+/* Réseaux sociaux */
+#medias {
+    display:flex;
+    justify-content:flex-start;
+    gap:15px;
+    font-size:30px;
+    margin-top:20px;
+}
+#medias i {
+    color:rgba(0, 200, 200, 0.5);
+    transition:0.5s;
+}
+#medias i:hover {
+    transform:scale(1.4);
+    color:#92FE9D;
+    transition:0.5s;
+}
+/* Icones des infos */
+
+ul li i {
+    font-size:30px;
+    color:#00C9FF;
+    margin-right:10px;
+
+}
+/* Liens */
